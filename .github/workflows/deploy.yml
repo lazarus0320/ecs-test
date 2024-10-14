@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  ECR_REPOSITORY: 'java-spring-boot'
+  ECR_REPOSITORY: 'ecs-test'
   SHA: ${{ github.sha }}
 
 jobs:
