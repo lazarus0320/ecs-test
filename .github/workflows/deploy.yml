@@ -62,6 +62,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v2
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: java-spring-boot
+          service: nginx-fargate-service
           cluster: ecs-test-cluster
           wait-for-service-stability: false
