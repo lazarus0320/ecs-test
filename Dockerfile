@@ -1,5 +1,5 @@
 # JDK 17
-FROM openjdk:17-alpine
+FROM --platform=linux/amd64 openjdk:17-alpine
 
 # 8080 포트로 배포
 EXPOSE 8080
